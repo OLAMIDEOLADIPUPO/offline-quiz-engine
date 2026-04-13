@@ -1,0 +1,112 @@
+[
+    {
+        "questionText": "What is the capital of France?",
+        "options": ["Paris", "London", "Berlin", "Rome"],
+        "correctAnswerIndex": 0
+    },
+    {
+        "questionText": "What is 2 + 2?",
+        "options": ["3", "4", "5", "6"],
+        "correctAnswerIndex": 1
+    },
+    {
+        "questionText": "What is the largest planet in our solar system?",
+        "options": ["Earth", "Saturn", "Jupiter", "Neptune"],
+        "correctAnswerIndex": 2
+    },
+    {
+        "questionText": "Which language is used to style web pages?",
+        "options": ["HTML", "CSS", "JavaScript", "Python"],
+        "correctAnswerIndex": 1
+    },
+    {
+        "questionText": "What does OOP stand for?",
+        "options": ["Object Oriented Programming", "Open Object Processing", "Ordered Object Protocol", "None of the above"],
+        "correctAnswerIndex": 0
+    },
+    {
+        "questionText": "Which data structure follows LIFO order?",
+        "options": ["Queue", "Array", "Stack", "LinkedList"],
+        "correctAnswerIndex": 2
+    },
+    {
+        "questionText": "What is the chemical symbol for water?",
+        "options": ["O2", "H2O", "CO2", "HO"],
+        "correctAnswerIndex": 1
+    },
+    {
+        "questionText": "Who wrote the play Romeo and Juliet?",
+        "options": ["Charles Dickens", "Mark Twain", "William Shakespeare", "Jane Austen"],
+        "correctAnswerIndex": 2
+    },
+    {
+        "questionText": "What is the speed of light approximately?",
+        "options": ["300,000 km/s", "150,000 km/s", "1,000 km/s", "3,000 km/s"],
+        "correctAnswerIndex": 0
+    },
+    {
+        "questionText": "Which keyword is used to create a class in Java?",
+        "options": ["define", "struct", "class", "object"],
+        "correctAnswerIndex": 2
+    },
+    {
+        "questionText": "What does CPU stand for?",
+        "options": ["Central Processing Unit", "Computer Personal Unit", "Core Processing Utility", "Central Program Unit"],
+        "correctAnswerIndex": 0
+    },
+    {
+        "questionText": "Which continent is Nigeria located in?",
+        "options": ["Asia", "South America", "Europe", "Africa"],
+        "correctAnswerIndex": 3
+    },
+    {
+        "questionText": "What is the square root of 144?",
+        "options": ["11", "12", "13", "14"],
+        "correctAnswerIndex": 1
+    },
+    {
+        "questionText": "Which of these is NOT a primitive type in Java?",
+        "options": ["int", "boolean", "String", "char"],
+        "correctAnswerIndex": 2
+    },
+    {
+        "questionText": "What does HTTP stand for?",
+        "options": ["HyperText Transfer Protocol", "High Transfer Text Process", "HyperText Transmission Process", "High Text Transfer Protocol"],
+        "correctAnswerIndex": 0
+    },
+    {
+        "questionText": "How many bits are in a byte?",
+        "options": ["4", "16", "8", "32"],
+        "correctAnswerIndex": 2
+    },
+    {
+        "questionText": "Which planet is known as the Red Planet?",
+        "options": ["Venus", "Mars", "Mercury", "Jupiter"],
+        "correctAnswerIndex": 1
+    },
+    {
+        "questionText": "What is the default value of an int in Java?",
+        "options": ["null", "-1", "1", "0"],
+        "correctAnswerIndex": 3
+    },
+    {
+        "questionText": "Which of these is a loop in Java?",
+        "options": ["repeat", "loop", "for", "iterate"],
+        "correctAnswerIndex": 2
+    },
+    {
+        "questionText": "What does RAM stand for?",
+        "options": ["Read Access Memory", "Random Access Memory", "Rapid Access Module", "Read And Memorize"],
+        "correctAnswerIndex": 1
+    },
+    {
+        "questionText": "Which symbol is used for single line comments in Java?",
+        "options": ["#", "//", "--", "/*"],
+        "correctAnswerIndex": 1
+    },
+    {
+        "questionText": "What is the main method signature in Java?",
+        "options": ["public void main()", "static void main()", "public static void main(String[] args)", "void start(String[] args)"],
+        "correctAnswerIndex": 2
+    }
+]
