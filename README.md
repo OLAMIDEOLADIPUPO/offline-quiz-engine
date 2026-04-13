@@ -1,16 +1,15 @@
 # Offline Quiz Engine
 
-A console-based quiz application built in Java that loads questions from a JSON file, runs an interactive quiz session, calculates scores, and saves attempts to disk.
-
+A console-based quiz application built in Java that demonstrates backend system design principles, including layered architecture, file-based persistence, and structured data flow.
 ---
 
 ## Features
 
 - Loads questions dynamically from a `questions.json` file
-- Interactive console quiz with A/B/C/D input validation
-- Score calculation and percentage grading
-- Saves every attempt to `attempts.json` automatically
-- Clean OOP design with separated packages
+- Interactive quiz session with validated user input (A–Z options supported)
+- Score calculation with percentage grading
+- Persistent storage of attempts in `attempts.json`
+- Layered architecture: controller, service, repository, model
 
 ---
 
@@ -110,9 +109,13 @@ Grade  : 81.8%
 - JSON parsing with Gson
 - Input validation and exception handling
 - Package structure (controller, service, model, repository)
+- Data serialization/deserialization with Gson
 
+## Future Improvements
+- Replace file storage with a relational database (e.g. PostgreSQL)
+- Add REST API layer using Spring Boot
+- Implement user authentication
+- Introduce unit and integration testing
 ---
 
-## Author
 
-Built as an intermediate beginner OOP project in Java.
