@@ -2,7 +2,8 @@ package controller;
 
 import model.Attempt;
 import model.Question;
-import repository.FileService;
+import repository.FileRepository;
+import service.FileService;
 import service.Quiz;
 
 import java.io.IOException;
@@ -10,10 +11,10 @@ import java.util.Scanner;
 
 public class QuizEngine {
     private Quiz quiz;
-    private FileService fileService;
-    public QuizEngine(Quiz quiz, FileService fileService) {
+    private FileRepository fileRepository;
+    public QuizEngine(Quiz quiz, FileRepository fileRepository  ) {
         this.quiz = quiz;
-        this.fileService = fileService;
+        this.fileRepository = fileRepository;
     }
     public void run(){
         Scanner input = new Scanner(System.in);
@@ -40,6 +41,9 @@ public class QuizEngine {
                 }
             }
             quiz.submitAnswer(answerIndex);
+            if(!currentQuestion.isCorrect(answerIndex)){
+                System.out.println("Wrong answer, Correct answer is "+currentQuestion.getCorrectAnswerText());
+            }
 
         }
         int finalScore = quiz.getFinalScore();
@@ -53,13 +57,12 @@ public class QuizEngine {
 
         Attempt attempt = new Attempt(username, finalScore);
         try{
-            fileService.saveAttempt(attempt);
+            fileRepository.saveAttempt(attempt);
         }
         catch(IOException e){
             System.out.println(e.getMessage());
         }
 
-        input.close();
 
     }
 }

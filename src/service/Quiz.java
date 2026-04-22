@@ -3,6 +3,7 @@ package service;
 import model.Question;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Quiz {
@@ -13,6 +14,7 @@ public class Quiz {
    public Quiz(List<Question> questions) {
         if (questions.isEmpty()) throw new IllegalArgumentException("service.Quiz must have at least one question");
         this.questions = new ArrayList<>(questions);
+        Collections.shuffle(this.questions);
         this.currentScore = 0;
         this.currentQuestionIndex = 0;
     }

@@ -22,6 +22,9 @@ public class Question {
     public boolean isCorrect(int userAnswer) {
         return correctAnswerIndex == userAnswer;
     }
+    public String getCorrectAnswerText(){
+        return options.get(correctAnswerIndex);
+    }
 
     @Override
     public String toString() {
